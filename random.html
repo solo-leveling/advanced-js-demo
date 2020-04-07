@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .newClass {
+            visibility: hidden;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="change()">Click me</button>
+    <p id="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde animi distinctio maxime neque eius facere vero, dignissimos sint mollitia dolore exercitationem earum? Laudantium eveniet ab temporibus labore maxime culpa possimus!</p>
+    <script>
+        function change() {
+            var p = document.getElementById("p");
+            p.classList.toggle("newClass");
+        }
+    </script>
+</body>
+
+</html>
